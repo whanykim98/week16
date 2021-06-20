@@ -1,0 +1,68 @@
+:root {
+	--normal-bg-color: #fafafa;
+ 	--none-bg-color: #ffffff;
+ 	--main1-bg-color: #D1EDF3;
+ 	--main2-bg-color: #F3E2CE;
+ 	--main3-bg-color: #BCC2C4;
+ 	--main4-bg-color: #92B3B7;
+ 	--main5-bg-color: #5F839D;
+}
+
+.bgcolor {
+  	background-color: var(--normal-bg-color);
+}
+
+.bgcolor-non {
+  	background-color: var(--none-bg-color);
+}
+
+.text_white{
+	color : var(--normal-bg-color);
+}
+
+.text_font{
+	font-size:2em;
+}
+
+.text_font2{
+	font-size:1.7em;
+}
+
+.maincolor1 {
+	background-color: var(--main1-bg-color);
+	color : black;
+}
+
+.maincolor2 {
+	background-color: var(--main2-bg-color);
+	color : black;
+}
+
+.maincolor3 {
+	background-color: var(--main3-bg-color);
+	color : black;
+}
+
+.maincolor4 {
+	background-color: var(--main4-bg-color);
+	color : black;
+}
+
+.maincolor5 {
+	background-color: var(--main5-bg-color);
+	color : black;
+}
+
+.cen {
+	text-align:center;
+}
+
+.bor {
+	border-radius: 30px;
+}
+
+.isize {
+	width : 15px !important;
+	height : 15px !important;
+	font-size: 13px !important;
+}
